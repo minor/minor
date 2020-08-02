@@ -1,5 +1,6 @@
 # hi, i'm saurish!
-```class Saurish:
+```py
+class Saurish:
     def __init__(self):
         self.variables = {
             'name': 'Saurish Srivastava',
