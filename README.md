@@ -1,5 +1,5 @@
 # hi, i'm saurish!
-class Saurish:
+```class Saurish:
     def __init__(self):
         self.variables = {
             'name': 'Saurish Srivastava',
@@ -36,3 +36,4 @@ if __name__ == '__main__':
     saurish = saurishs()
     saurish.description()
     saurish.social_medias()
+```
