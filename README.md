@@ -26,7 +26,7 @@ class Saurish:
             'Instagram': 'saurishhh',
             'Github': 'saurishs',
             'Twitter': 'saurishhh'
-            'Website':``` [`https://saurish.com`](https://saurish.com/)``` py
+            'Website': 'https://saurish.com'
         }
 
         print('\n-----contact-----')
