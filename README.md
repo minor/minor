@@ -1,11 +1,11 @@
 # hi, i'm saurish!
 ```py
-class Saurish:
+class saurishs:
     def __init__(self):
         self.variables = {
             'name': 'Saurish Srivastava',
             'age': 15,
-            'hobby': 'coding', 'volleyball'
+            'hobbies': 'coding', 'volleyball', 'debating', 'giving back'
             'languages': ('English', 'Spanish', 'Hindi')
         }
 
@@ -17,25 +17,26 @@ class Saurish:
             elif index == 1:
                 print(f'Age: {value}')
             elif index == 2:
-                print(f'Hobby: {value}')
+                print(f'Hobbies: {value}')
             elif index == 3:
                 print(f'Languages: {value}')
 
-    def social_medias(self):
+    def social_media(self):
         platforms = {
             'Instagram': 'saurishhh',
             'Github': 'saurishs',
             'Twitter': 'saurishhh'
             'Website': 'https://saurish.com'
         }
-
-        print('\n-----contact-----')
-        for key, value in platforms.items():
-            print(f'{key}: {value}')
-
-
+        
+    def contact(self):
+        platforms = {
+            'Mail': 'me@saurish.com'
+        }
+    
 if __name__ == '__main__':
     saurish = saurishs()
     saurish.description()
-    saurish.social_medias()
+    saurish.social_media()
+    saurish.contact()
 ```
