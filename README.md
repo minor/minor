@@ -1,42 +1,50 @@
-# hi, i'm saurish!
+# hey, i'm saurish
 ```py
 class saurishsrivastava:
     def __init__(self):
         self.variables = {
-            'name': 'Saurish Srivastava',
+            'name': 'saurish',
             'age': 16,
-            'hobbies': 'coding', 'volleyball', 'debating', 'giving back'
-            'languages': ('English', 'Spanish', 'Hindi')
+            'hobbies': 'coding, volleyball, debating',
+            'languages': 'english, spanish, hindi'
+        }
+        
+        self.social = {
+            'instagram': '@saurishhh',
+            'github': '@minor',
+            'twitter': '@saurishhh',
+            'contact': 'me@saurish.com',
+            'website': 'saurish.com'
         }
 
     def description(self):
-        print('------saurish------')
         for index, value in enumerate(self.variables.values()):
             if index == 0:
-                print(f'Name: {value}')
+                print(f"--- hi, i'm {value} ---")
             elif index == 1:
-                print(f'Age: {value}')
+                print(f'age: {value}')
             elif index == 2:
-                print(f'Hobbies: {value}')
+                print(f'hobbies: {value}')
             elif index == 3:
-                print(f'Languages: {value}')
+                print(f'languages: {value}')
 
     def social_media(self):
-        platforms = {
-            'Instagram': 'saurishhh',
-            'Github': 'saurishs',
-            'Twitter': 'saurishhh'
-            'Website': 'https://saurish.com'
-        }
-        
-    def contact(self):
-        platforms = {
-            'Mail': 'me@saurish.com'
-        }
-    
+        print('\n--- social media & contact ---')
+        for index, value in enumerate(self.social.values()):
+            if index == 0:
+                print(f'instagram: {value}')
+            elif index == 1:
+                print(f'github: {value}')
+            elif index == 2:
+                print(f'twitter: {value}')
+            elif index == 3:
+                print(f'contact: {value}')
+            else:
+                print(f'website: {value}')
+
+
 if __name__ == '__main__':
     saurish = saurishsrivastava()
     saurish.description()
     saurish.social_media()
-    saurish.contact()
 ```
