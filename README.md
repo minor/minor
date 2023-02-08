@@ -4,7 +4,7 @@ class saurishsrivastava:
     def __init__(self):
         self.variables = {
             'name': 'saurish',
-            'age': 17,
+            'age': 18,
             'hobbies': 'coding, volleyball, debating',
             'languages': 'english, spanish, hindi'
         }
